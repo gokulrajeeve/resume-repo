@@ -69,19 +69,19 @@ export function NavBar() {
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 sm:px-8 md:px-12 lg:px-16">
-        <div className="flex items-center justify-center gap-1 py-4">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+        <div className="flex items-center justify-start md:justify-center gap-1 py-3 overflow-x-auto scrollbar-hide">
           {sections.map(({ id, label, icon: Icon }) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
-              className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap shrink-0 ${
                 activeSection === id
                   ? 'bg-blue-600 text-white shadow-md'
                   : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-slate-800'
               }`}
             >
-              <Icon size={16} className="hidden sm:block" />
+              <Icon size={16} className="hidden xs:block" />
               <span>{label}</span>
             </button>
           ))}
