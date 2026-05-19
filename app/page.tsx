@@ -68,7 +68,7 @@ export default function Home() {
             {/* About */}
             <Section title="About" id="about">
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                Senior Developer with <span className="font-semibold text-gray-900 dark:text-white">3+ years of experience</span> bridging the gap between Enterprise Power Platform solutions and modern Full-Stack Web Architecture.
+                Senior Developer with <span className="font-semibold text-gray-900 dark:text-white">4+ years of experience</span> bridging the gap between Enterprise Power Platform solutions and modern Full-Stack Web Architecture.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                 Expert in building complex Dataverse environments, secure ERP integrations, and custom Next.js applications. Proven track record delivering mission-critical tools across various sectors.
@@ -219,7 +219,7 @@ export default function Home() {
                 <li>Developed and implemented 40+ Power Automate Flows to automate business processes and migrations.</li>
                 <li>Built and deployed custom connectors, plugins, and Power Apps components (PCF), managing code versioning and releases with GitHub and Azure DevOps.</li>
                 <li>Administered security roles and enabled dynamic authorizations via Power Automate.</li>
-                <li><strong>Notable achievement:</strong> Built a Power Platform solution adopted across 4 countries, scaling to 500+ monthly users, driving client retention and business growth. Spearheaded expansion and scaled a 7-member development team, managing code repositories and solution deployments.</li>
+                <li><strong>Notable achievement:</strong> Built a Power Platform solution adopted across 4 countries, scaling to 5000+ monthly users, driving client retention and business growth. Spearheaded expansion and scaled a 7-member development team, managing code repositories and solution deployments.</li>
               </ul>
             </ExperienceCard>
 

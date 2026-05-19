@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Gokul Rajeeve - Senior Full Stack Developer",
-  description: "Senior Developer with 3+ years of experience in Power Platform and modern Full-Stack Web Development. Expert in Next.js, React, TypeScript, and Microsoft Power Platform.",
+  description: "Senior Developer with 4+ years of experience in Power Platform and modern Full-Stack Web Development. Expert in Next.js, React, TypeScript, and Microsoft Power Platform.",
   keywords: ["Full Stack Developer", "Power Platform", "Next.js", "React", "TypeScript", "Bangalore", "Software Engineer"],
   authors: [{ name: "Gokul Rajeeve" }],
   openGraph: {
